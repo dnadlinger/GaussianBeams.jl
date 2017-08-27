@@ -1,5 +1,7 @@
 module GaussianBeams
 
-# package code goes here
+include("system.jl")
+include("plotting.jl")
+include("utils.jl")
 
 end # module
