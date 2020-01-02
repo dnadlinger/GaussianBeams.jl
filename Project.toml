@@ -1,0 +1,7 @@
+name = "GaussianBeams"
+uuid = "c840bdc5-dbf8-5b44-85d0-dc21cee45c70"
+
+[deps]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
