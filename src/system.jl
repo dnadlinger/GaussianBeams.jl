@@ -34,7 +34,7 @@ struct FreeSpace <: Element
 end
 
 struct Interface <: Element
-    new_index # New divided by old index of refraction
+    new_index  # New index of refraction.
 end
 
 new_index(old_index, elem::Element) = old_index
