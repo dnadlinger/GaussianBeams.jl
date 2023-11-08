@@ -72,8 +72,7 @@ end
 
 function apply(beam::Beam, elem::Interface)
     new = apply_abcd(beam, [1 zero_like(beam.λ); zero_like(1 / beam.λ) (beam.index / elem.new_index)])
-    new.index = elem.new_index
-    new
+    Beam(new.q, new.λ, elem.new_index)
 end
 
 function apply(beam::Beam, elem::FreeSpace)
