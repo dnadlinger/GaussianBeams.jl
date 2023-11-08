@@ -83,4 +83,4 @@ function propagate(elements::Array{E, 1}, beam::Beam) where E<:Element
     reduce(apply, elements, init=beam)
 end
 
-export Beam, beam, Element, Lens, FreeSpace, Interface, expand_system, propagate
+export Beam, beam, Element, Lens, FreeSpace, Interface, expand_system, propagate, waist_radius, waist_offset
